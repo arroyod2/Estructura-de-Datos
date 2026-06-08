@@ -42,7 +42,7 @@ public class Main {
 
     public static void menuAdministrador() {
         int opcionAdmin = Integer.parseInt(JOptionPane.showInputDialog(
-                "MENÚ ADMINISTRADOR\n\n" + "1. Ver ticket al frente\n" + "2. Resolver ticket"));
+                "Menú adiministrador\n" + "1. Ver ticket al frente\n" + "2. Resolver ticket"));
 
         if (opcionAdmin == 1) aplicacion.verFrente();
         if (opcionAdmin == 2) aplicacion.resolverTicket();
