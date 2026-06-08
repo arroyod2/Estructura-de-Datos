@@ -26,7 +26,7 @@ public class Main {
 
     public static void menuUsuario() {
         int opcionUsu = Integer.parseInt(JOptionPane.showInputDialog(
-                "MENÚ USUARIO\n" + "1. Crear Ticket\n" + "2. Buscar Ticket"));
+                "Menú usuario\n" + "1. Crear Ticket\n" + "2. Buscar Ticket"));
 
         if (opcionUsu == 1) {
             String nombre = JOptionPane.showInputDialog("Nombre: ");
